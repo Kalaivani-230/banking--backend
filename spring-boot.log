@@ -1,0 +1,379 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:MiniProject >-----------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.14:run (default-cli) > test-compile @ MiniProject >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ MiniProject ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ MiniProject ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ MiniProject ---
+[INFO] skip non existing resourceDirectory c:\Users\HIMANSHU JANGHEL\OneDrive\Desktop\bank\MiniProject\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ MiniProject ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.14:run (default-cli) < test-compile @ MiniProject <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.14:run (default-cli) @ MiniProject ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.14)
+
+2026-05-16T23:27:46.261+05:30  INFO 27828 --- [MiniProject] [           main] c.e.MiniProject.MiniProjectApplication   : Starting MiniProjectApplication using Java 22.0.2 with PID 27828 (C:\Users\HIMANSHU JANGHEL\OneDrive\Desktop\bank\MiniProject\target\classes started by HIMANSHU JANGHEL in c:\Users\HIMANSHU JANGHEL\OneDrive\Desktop\bank\MiniProject)
+2026-05-16T23:27:46.264+05:30  INFO 27828 --- [MiniProject] [           main] c.e.MiniProject.MiniProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-16T23:27:46.954+05:30  INFO 27828 --- [MiniProject] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-16T23:27:47.041+05:30  INFO 27828 --- [MiniProject] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 15 JPA repository interfaces.
+2026-05-16T23:27:47.486+05:30  INFO 27828 --- [MiniProject] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-16T23:27:47.496+05:30  INFO 27828 --- [MiniProject] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-16T23:27:47.496+05:30  INFO 27828 --- [MiniProject] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-16T23:27:47.560+05:30  INFO 27828 --- [MiniProject] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-16T23:27:47.561+05:30  INFO 27828 --- [MiniProject] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1266 ms
+2026-05-16T23:27:47.692+05:30  INFO 27828 --- [MiniProject] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-16T23:27:47.728+05:30  INFO 27828 --- [MiniProject] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-16T23:27:47.760+05:30  INFO 27828 --- [MiniProject] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-16T23:27:48.024+05:30  INFO 27828 --- [MiniProject] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-16T23:27:48.053+05:30  INFO 27828 --- [MiniProject] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-16T23:27:48.208+05:30  INFO 27828 --- [MiniProject] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cbft user=SA
+2026-05-16T23:27:48.208+05:30  INFO 27828 --- [MiniProject] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-16T23:27:48.231+05:30  WARN 27828 --- [MiniProject] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-16T23:27:48.248+05:30  INFO 27828 --- [MiniProject] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-16T23:27:49.099+05:30  INFO 27828 --- [MiniProject] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    create table account_limits (
+        id bigint generated by default as identity,
+        account_id bigint not null,
+        daily_limit numeric(38,2) not null,
+        effective_from timestamp(6) with time zone not null,
+        effective_to timestamp(6) with time zone,
+        monthly_limit numeric(38,2) not null,
+        per_txn_limit numeric(38,2) not null,
+        updated_at timestamp(6) with time zone,
+        updated_by bigint,
+        primary key (id)
+    )
+Hibernate: 
+    create table accounts (
+        id bigint generated by default as identity,
+        account_no varchar(255) not null,
+        account_type varchar(255) not null,
+        available_balance numeric(38,2),
+        country_code varchar(10),
+        created_at timestamp(6) with time zone,
+        currency_code varchar(10),
+        customer_id bigint not null,
+        ledger_balance numeric(38,2),
+        status varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table approvals (
+        id bigint generated by default as identity,
+        approver_id bigint,
+        decided_at timestamp(6) with time zone,
+        decision varchar(255),
+        decision_reason varchar(255),
+        entity_id bigint not null,
+        entity_type varchar(255) not null,
+        status varchar(255) not null,
+        submitted_at timestamp(6) with time zone not null,
+        submitted_by bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table customer_limits (
+        id bigint generated by default as identity,
+        customer_id bigint not null,
+        daily_limit numeric(38,2) not null,
+        effective_from timestamp(6) with time zone not null,
+        effective_to timestamp(6) with time zone,
+        monthly_limit numeric(38,2) not null,
+        per_txn_limit numeric(38,2) not null,
+        updated_at timestamp(6) with time zone,
+        updated_by bigint,
+        primary key (id)
+    )
+Hibernate: 
+    create table customer_otp (
+        id bigint generated by default as identity,
+        attempts integer,
+        created_at timestamp(6) with time zone,
+        customer_id bigint not null,
+        expires_at timestamp(6) with time zone not null,
+        otp_code varchar(255) not null,
+        purpose varchar(255) not null,
+        verified_at timestamp(6) with time zone,
+        primary key (id)
+    )
+Hibernate: 
+    create table customers (
+        id bigint generated by default as identity,
+        created_at timestamp(6) with time zone,
+        customer_code varchar(255) not null,
+        customer_type_code varchar(255) not null,
+        email varchar(255) not null,
+        full_name varchar(255) not null,
+        mobile varchar(255) not null,
+        password_hash varchar(255) not null,
+        preferred_account_type varchar(255),
+        status varchar(255) not null,
+        updated_at timestamp(6) with time zone,
+        primary key (id)
+    )
+Hibernate: 
+    create table fee_components (
+        id bigint generated by default as identity,
+        calc_type varchar(255) not null,
+        component_type varchar(255) not null,
+        created_at timestamp(6) with time zone,
+        is_estimated boolean not null,
+        max_fee numeric(38,2),
+        min_fee numeric(38,2),
+        policy_id bigint not null,
+        component_value numeric(18,8) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table fee_policies (
+        id bigint generated by default as identity,
+        amount_max numeric(38,2),
+        amount_min numeric(38,2),
+        channel_code varchar(20) not null,
+        corridor_id bigint not null,
+        created_at timestamp(6) with time zone,
+        created_by bigint,
+        customer_type_code varchar(20) not null,
+        effective_from timestamp(6) with time zone not null,
+        effective_to timestamp(6) with time zone,
+        policy_name varchar(255) not null,
+        priority integer,
+        receive_currency varchar(10) not null,
+        send_currency varchar(10) not null,
+        status varchar(255) not null,
+        updated_at timestamp(6) with time zone,
+        version_number integer,
+        primary key (id)
+    )
+Hibernate: 
+    create table internal_users (
+        id bigint generated by default as identity,
+        created_at timestamp(6) with time zone,
+        email varchar(255),
+        employee_id varchar(255) not null,
+        failed_login_attempts integer,
+        full_name varchar(255) not null,
+        last_login_at timestamp(6) with time zone,
+        mobile varchar(255),
+        password_hash varchar(255) not null,
+        role varchar(255) not null,
+        status varchar(255) not null,
+        updated_at timestamp(6) with time zone,
+        primary key (id)
+    )
+Hibernate: 
+    create table kyc_requests (
+        id bigint generated by default as identity,
+        aadhaar varchar(255) not null,
+        created_at timestamp(6) with time zone,
+        customer_id bigint not null,
+        pan varchar(255) not null,
+        rejected_reason varchar(255),
+        status varchar(255) not null,
+        submitted_at timestamp(6) with time zone,
+        verified_at timestamp(6) with time zone,
+        verified_by bigint,
+        primary key (id)
+    )
+Hibernate: 
+    create table master_channels (
+        code varchar(20) not null,
+        description varchar(255),
+        is_active boolean not null,
+        primary key (code)
+    )
+Hibernate: 
+    create table master_corridors (
+        id bigint generated by default as identity,
+        created_at timestamp(6) with time zone,
+        from_country_code varchar(10) not null,
+        is_active boolean not null,
+        to_country_code varchar(10) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table master_countries (
+        code varchar(10) not null,
+        is_active boolean not null,
+        name varchar(255) not null,
+        primary key (code)
+    )
+Hibernate: 
+    create table master_currencies (
+        code varchar(10) not null,
+        is_active boolean not null,
+        name varchar(255) not null,
+        symbol varchar(255),
+        primary key (code)
+    )
+Hibernate: 
+    create table master_customer_types (
+        code varchar(20) not null,
+        description varchar(255),
+        is_active boolean not null,
+        primary key (code)
+    )
+Hibernate: 
+    alter table if exists accounts 
+       drop constraint if exists UKsdt663ogqa0uggqtc2ij6ibpo
+Hibernate: 
+    alter table if exists accounts 
+       add constraint UKsdt663ogqa0uggqtc2ij6ibpo unique (account_no)
+Hibernate: 
+    alter table if exists customers 
+       drop constraint if exists UKiqv746oh5t5is1vr4p2nl79r6
+Hibernate: 
+    alter table if exists customers 
+       add constraint UKiqv746oh5t5is1vr4p2nl79r6 unique (customer_code)
+Hibernate: 
+    alter table if exists customers 
+       drop constraint if exists UKrfbvkrffamfql7cjmen8v976v
+Hibernate: 
+    alter table if exists customers 
+       add constraint UKrfbvkrffamfql7cjmen8v976v unique (email)
+Hibernate: 
+    alter table if exists customers 
+       drop constraint if exists UKcuu4e61wdwoopdgsh61owqq2f
+Hibernate: 
+    alter table if exists customers 
+       add constraint UKcuu4e61wdwoopdgsh61owqq2f unique (mobile)
+Hibernate: 
+    alter table if exists internal_users 
+       drop constraint if exists UKs9htp0yrjfnnn95o5lg4ftp7p
+Hibernate: 
+    alter table if exists internal_users 
+       add constraint UKs9htp0yrjfnnn95o5lg4ftp7p unique (email)
+Hibernate: 
+    alter table if exists internal_users 
+       drop constraint if exists UKg37jjneewn6kj0mwluvc8a1n
+Hibernate: 
+    alter table if exists internal_users 
+       add constraint UKg37jjneewn6kj0mwluvc8a1n unique (employee_id)
+Hibernate: 
+    alter table if exists master_corridors 
+       drop constraint if exists UK41q07k7xoki7cgr8kaux2p5os
+Hibernate: 
+    alter table if exists master_corridors 
+       add constraint UK41q07k7xoki7cgr8kaux2p5os unique (from_country_code, to_country_code)
+2026-05-16T23:27:49.167+05:30  INFO 27828 --- [MiniProject] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-16T23:27:49.618+05:30  WARN 27828 --- [MiniProject] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-16T23:27:49.641+05:30 DEBUG 27828 --- [MiniProject] [           main] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-05-16T23:27:49.873+05:30 DEBUG 27828 --- [MiniProject] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-05-16T23:27:50.031+05:30  INFO 27828 --- [MiniProject] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:cbft'
+2026-05-16T23:27:50.133+05:30  INFO 27828 --- [MiniProject] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-16T23:27:50.140+05:30  INFO 27828 --- [MiniProject] [           main] c.e.MiniProject.MiniProjectApplication   : Started MiniProjectApplication in 4.309 seconds (process running for 4.644)
+Hibernate: 
+    select
+        iu1_0.id 
+    from
+        internal_users iu1_0 
+    where
+        iu1_0.employee_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        internal_users
+        (created_at, email, employee_id, failed_login_attempts, full_name, last_login_at, mobile, password_hash, role, status, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        iu1_0.id 
+    from
+        internal_users iu1_0 
+    where
+        iu1_0.employee_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        internal_users
+        (created_at, email, employee_id, failed_login_attempts, full_name, last_login_at, mobile, password_hash, role, status, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        iu1_0.id 
+    from
+        internal_users iu1_0 
+    where
+        iu1_0.employee_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        internal_users
+        (created_at, email, employee_id, failed_login_attempts, full_name, last_login_at, mobile, password_hash, role, status, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        iu1_0.id 
+    from
+        internal_users iu1_0 
+    where
+        iu1_0.employee_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        internal_users
+        (created_at, email, employee_id, failed_login_attempts, full_name, last_login_at, mobile, password_hash, role, status, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        iu1_0.id 
+    from
+        internal_users iu1_0 
+    where
+        iu1_0.employee_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    insert 
+    into
+        internal_users
+        (created_at, email, employee_id, failed_login_attempts, full_name, last_login_at, mobile, password_hash, role, status, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+? Internal users seeded/verified. Default password for all = Password@123
+2026-05-16T23:27:50.663+05:30  WARN 27828 --- [MiniProject] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-16T23:27:50.663+05:30  WARN 27828 --- [MiniProject] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+^C
